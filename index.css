@@ -191,7 +191,7 @@ button {
   }
 
   .menu-header {
-    padding: 0 16px;
+    padding: 0 18px;
     align-items: center;
     border-bottom: 1px solid #0000;
     display: flex;
@@ -1857,6 +1857,10 @@ button {
       width: 20px;
       font-style: normal;
       text-align: center;
+    }
+
+    .menu-btn-close {
+      font-size: 20px;
     }
 
   /* BANNER */
