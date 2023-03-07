@@ -171,7 +171,7 @@ button {
     top: 0;
     right: 0;
     width: 0;
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
   }
 
   .site-slide-menu-card{
@@ -179,7 +179,7 @@ button {
     flex-direction: column;
     height: 100%;
     position: relative;
-    transition: .3s;
+    transition: .2s;
     width: 100%;
   }
 
@@ -266,11 +266,18 @@ button {
     padding-top: 16px;
   }
 
-  .nav-link {
+  .nav-link,
+  .navigation-footer-item {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
     height: 39.19px;
+  }
+
+  .content-navigation-footer {
+    border-top: 1px solid #e7e7e7;
+    margin-top: 16px;
+    padding-top: 16px;
   }
 
 
@@ -359,11 +366,11 @@ button {
   line-height: 1.25;
 }
 
-.banner-info-price strong {
+.banner-info-price .price{
   font-weight: 700;
 }
 
-.banner-info-price strong small {
+.banner-info-price .euro {
   font-size: 70%;
 }
 
