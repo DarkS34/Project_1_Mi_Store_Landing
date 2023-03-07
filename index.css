@@ -1845,7 +1845,7 @@ button {
     }
 
     .menu-btn-close::before {
-      content: "🞨";
+      content: "✕";
     }
 
     .menu-btn-open,
